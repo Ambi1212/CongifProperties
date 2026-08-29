@@ -2,15 +2,15 @@ server:
   port: 8083
 
 spring:
- cloud:
-  admin:
-   client:
-     url:http://localhost:8086
+  cloud:
+    admin:
+     client:
+       url: http://localhost:8086
 
-   management:
-    endpoints:
-     web:
+management:
+  endpoints:
+    web:
       exposure:
-       include: "*"
+        include: "*"
 
-       message :
+       
