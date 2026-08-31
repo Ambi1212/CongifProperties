@@ -13,4 +13,4 @@ management:
       exposure:
         include: "*"
 
-       
+message: "this is the demo message from the config server"       
